@@ -16,7 +16,7 @@ MonsterHunterRL was built with Hobgoblin, but Justice was not. I'm wanting to ad
 
 ## AI - Making monsters smart
 
-Hobgoblin actually supports a limited form of AI with its `TaskActor` entity-mixin. When it's an entities turn, it attempts to do the first task. If this fails, it tries to do the next task and so on. It's implemented kind of clumsily, with each task needing to be defined right there in the mixin. As tasks get more complex, this mixin would just get huge. I think there's a better way.
+Hobgoblin actually supports a limited form of AI with its `TaskActor` entity-mixin. When it's an entity's turn, it attempts to do the first task. If this fails, it tries to do the next task and so on. It's implemented kind of clumsily, with each task needing to be defined right there in the mixin. As tasks get more complex, this mixin would just get huge. I think there's a better way.
 
 As I mentioned above, I have implemented this 'better way' to a certain degree in Justice. The general structure is as follows:
 
