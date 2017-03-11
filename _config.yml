@@ -18,4 +18,4 @@ github_username: jakofranko
 markdown: kramdown
 
 # GitHub Projects
-projects: ['hero', 'cave-quest']
+projects: ['hero', 'cave-quest', 'MonsterHunterRL']
