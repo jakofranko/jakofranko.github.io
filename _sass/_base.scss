@@ -8,6 +8,20 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+/**
+ * Border-Box sizing
+ */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+*:before,*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
 
 
 /**
@@ -45,6 +59,10 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
+}
+
+.round {
+    border-radius: 50%;
 }
 
 
@@ -202,5 +220,49 @@ pre {
         path {
             fill: $grey-color;
         }
+    }
+}
+
+/**
+ * Media Boxes
+ */
+.media {
+    @extend %clearfix;
+    display: block;
+    width: $content-width / 2;
+    margin-bottom: $spacing-unit;
+
+    img {
+        float: left;
+        width: 50px;
+        margin-right: 15px;
+    }
+
+    h1, h2, h3, h4, h5, h6, p {
+        margin: 0;
+    }
+}
+
+.main {
+    height: 100vh;
+    width: 69vw;
+    float: left;
+    padding: $spacing-unit;
+    position: relative;
+
+    @include media-query($on-laptop) {
+        font-size: 22px;
+    }
+}
+
+
+.sidebar {
+    height: 100vh;
+    width: 29vw;
+    float: left;
+    padding: $spacing-unit;
+
+    @include media-query($on-laptop) {
+        font-size: 22px;
     }
 }

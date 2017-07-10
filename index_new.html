@@ -1,0 +1,19 @@
+---
+layout: default_new
+---
+
+<div class="sidebar">
+  <h1>Jake Franklin</h1>
+</div>
+
+<div class="main">
+  <div class="center-vertical">
+    {% for category in site.data.work_categories %}
+      <div class="media">
+        <img class="round" src="{{ category.image }}" alt="{{ category.description }}">
+        <h3>{{ category.name }}</h3>
+        <p>{{ category.description }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
