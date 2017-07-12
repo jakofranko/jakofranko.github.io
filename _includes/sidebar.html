@@ -1,0 +1,24 @@
+<div class="sidebar">
+    <h1>
+        Jake Franklin
+
+        {% if page.title %}
+          <br />
+          <small>{{ page.title }}</small>
+        {% endif %}
+    </h1>
+
+    {% if page.image %}
+        <img src="{{ page.image }}" alt="Page image for {{ page.title }}" class="round" />
+    {% endif %}
+
+    <ul class="contact_info">
+        {% for info in site.data.contact_info %}
+            {% assign icon = "icon-" | append: info.name | append: ".svg" %}
+            <li>
+                <span class="icon">{% include {{ icon }} %}</span>
+                <a href="{{ info.url }}">{{ info.username }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
