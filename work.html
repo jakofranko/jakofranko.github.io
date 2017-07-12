@@ -1,0 +1,17 @@
+---
+layout: default_new
+title: My Work
+image: assets/logo.png
+---
+
+<div class="center-vertical">
+    {% for project in site.data.projects %}
+     <div class="media">
+        <a href="{{ project.path | prepend: site.baseurl }}">{% include icon-github.svg %}</a>
+        <h3>
+            <a href="{{ project.path | prepend: site.baseurl }}">{{ project.name }}</a>
+        </h3>
+        <p>{{ project.description }}</p>
+     </div>
+    {% endfor %}
+</div>
