@@ -4,13 +4,11 @@ title: Home
 ---
 
 <div class="center-vertical">
-  <nav>
-    {% for category in site.data.work_categories %}
-      <div class="media">
-        <a href="{{ category.page }}"><img class="round" src="{{ category.image }}" alt="{{ category.description }}" /></a>
-        <h3><a href="{{ category.page }}">{{ category.name }}</a></h3>
-        <p>{{ category.description }}</p>
-      </div>
-    {% endfor %}
-  </nav>
+  {% for category in site.data.work_categories %}
+    <div class="media">
+      <a href="{{ category.page }}"><img class="round" src="{{ category.image }}" alt="{{ category.description }}" /></a>
+      <h3><a href="{{ category.page }}">{{ category.name }}</a></h3>
+      <p>{{ category.description }}</p>
+    </div>
+  {% endfor %}
 </div>
