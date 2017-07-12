@@ -242,7 +242,7 @@ pre {
     width: $content-width / 1.5;
     margin-bottom: $spacing-unit;
 
-    img {
+    img, svg {
         float: left;
         width: 50px;
         margin-right: 15px;
@@ -272,6 +272,7 @@ pre {
 
 
 .sidebar {
+    background-color: $grey-color-light;
     height: 100vh;
     width: $sidebar-width;
     float: left;
