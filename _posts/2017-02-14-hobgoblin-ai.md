@@ -2,6 +2,7 @@
 title: "Hobgoblin + Thoughts on AI"
 layout: post
 date: 2017-02-14 9:48am
+parent: thoughts
 ---
 
 It's been a little over a year since my last post (time flies!) and since then I've been up to a few things. I've been continuing on my [superhero-themed roguelike](http://github.com/jakofranko/hero) and have started [another roguelike with a friend of mine that's set in the Monster Hunter International universe](http://github.com/jakofranko/MonsterHunterRL). For both games, I'm using ROT.js, a roguelike toolkit for JavaScript, and it's awesome. One thing that I've found as I've read tutorials and written a couple of my own games is that there is a way that I like to organize my projects, and this is generally informed by several people who's work I've followed closely. Since I really like organizing my projects this way, I decided to build a framework that uses ROT.js and write a little tool to initialize this scaffolding for new games.

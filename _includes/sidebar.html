@@ -1,10 +1,15 @@
 <div class="sidebar">
     <h1>
         Jake Franklin
-
+        
+        {% assign parent = page.parent || post.parent %}
+        {% if parent %}
+            <br />
+            <small><a href="/{{ parent }}">{{ parent | replace: ".html", "" | replace: ".md", "" | replace: "index", "home" | capitalize}}</a></small>
+        {% endif %}
         {% if page.title %}
-          <br />
-          <small>{{ page.title }}</small>
+            <br />
+            <small>{{ page.title }}</small>
         {% endif %}
     </h1>
 
