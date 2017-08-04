@@ -4,12 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I am, among many other things, a full-stack developer and UI/UX designer. My areas of expertise are most C-based languages (JavaScript, PHP, Ruby, Java, C#), Lisps (mainly Clojure right now), Databases (SQL, MongoDB), and the front-end stack (HTML, CSS, JavaScript). I'm currently employed on a team of developers that maintain an enterprise-level internal tools suite on a LAMP application platform on top of a custom MVC platform. In my free time, I like to build games, Twitter bots, and efficiency tools, and almost all of my projects are on GitHub.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+If you'd like to get in touch with me for any reason whatsoever, don't hesitate to shoot me a message on Twitter.
