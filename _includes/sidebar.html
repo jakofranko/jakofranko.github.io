@@ -1,18 +1,16 @@
 <div class="sidebar">
-    <h1>
-        Jake Franklin
-        
-        {% assign parent = page.parent || post.parent %}
-        {% if parent %}
-            <br />
-            <small><a href="/{{ parent }}">{{ parent | replace: ".html", "" | replace: ".md", "" | replace: "index", "home" | capitalize}}</a></small>
-        {% endif %}
-        {% if page.title %}
-            <br />
-            <small>{{ page.title }}</small>
-        {% endif %}
-    </h1>
-
+    <h1>Jake Franklin</h1>
+    <nav>
+        <ul>
+            {% assign parent = page.parent || post.parent %}
+            {% if parent %}
+                <li><a href="/{{ parent }}">{{ parent | replace: ".html", "" | replace: ".md", "" | replace: "index", "home" | capitalize}}</a></li>
+            {% endif %}
+            {% if page.title %}
+                <li>{{ page.title }}</li>
+            {% endif %}
+        </ul>
+    </nav>
     {% if page.image %}
         <img src="{{ page.image }}" alt="Page image for {{ page.title }}" class="round" />
     {% endif %}
