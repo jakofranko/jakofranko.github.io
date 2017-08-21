@@ -242,6 +242,10 @@ pre {
     width: $content-width / 1.5;
     margin-bottom: $spacing-unit;
 
+    @include media-query($on-laptop) {
+        width: 90vw;
+    }
+
     img, svg {
         float: left;
         width: 50px;
@@ -259,6 +263,7 @@ pre {
 }
 
 .main {
+    @extend %clearfix;
     height: 100vh;
     width: $content-width-new;
     float: left;
@@ -266,6 +271,8 @@ pre {
     position: relative;
 
     @include media-query($on-laptop) {
+        width: 100%;
+        float: none;
         font-size: 22px;
     }
 }
@@ -280,6 +287,9 @@ pre {
 
     @include media-query($on-laptop) {
         font-size: 22px;
+        width: 100%;
+        height: auto;
+        float: none;
     }
 
     img {
@@ -290,5 +300,13 @@ pre {
     .contact_info {
         list-style: none;
         margin-left: 0;
+    }
+
+    nav {
+        font-size: 16px;
+        ul {
+            margin-left: 0;
+            list-style: none;
+        }
     }
 }
