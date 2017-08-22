@@ -269,9 +269,9 @@ pre {
     float: left;
     padding: $spacing-unit;
     position: relative;
-
     @include media-query($on-laptop) {
         width: 100%;
+        height: auto;
         float: none;
         font-size: 22px;
     }
