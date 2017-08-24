@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+    {% include head.html %}
 
-  <body>
+    <body>
 
-    {% include sidebar.html %}
+        {% include sidebar.html %}
 
-    <div class="main">
-        {{ content }}
-    </div>
+        <div class="main">
+            {{ content }}
+        </div>
 
-  </body>
-
+    </body>
+    <script>
+      // Set the data-attributes for all links
+      const links = document.querySelectorAll('a');
+      links.forEach(link => link.dataset.text = link.textContent);
+    </script>
 </html>

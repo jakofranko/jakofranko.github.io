@@ -127,8 +127,9 @@ a {
     }
 
     &:hover {
+        @include textGlitch("link-glitch", 8, $text-color, $background-color, $highlight-color, $highlight-tertiary-color, 5, 100);
         color: $text-color;
-        text-decoration: underline;
+        text-decoration: none;
     }
 }
 
@@ -284,6 +285,10 @@ pre {
     width: $sidebar-width;
     float: left;
     padding: $spacing-unit;
+
+    a:hover {
+        @include textGlitch("nav-link-glitch", 10, $text-color, $grey-color-light, $highlight-color, $highlight-tertiary-color, 5, 100)
+    }
 
     @include media-query($on-laptop) {
         font-size: 22px;

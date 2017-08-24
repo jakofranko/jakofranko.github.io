@@ -40,9 +40,12 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:                #111;
+$background-color:          #fdfdfd;
+$brand-color:               #2a7ae2;
+$highlight-color:           #c9fffa;
+$highlight-secondary-color: #8e3737;
+$highlight-tertiary-color: #4cf749;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -75,6 +78,8 @@ $on-laptop:        962px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "glitch",
+        "glitch-plus",
         "base",
         "layout",
         "syntax-highlighting",
