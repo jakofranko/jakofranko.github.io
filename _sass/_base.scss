@@ -131,6 +131,12 @@ a {
         color: $text-color;
         text-decoration: none;
     }
+
+    @include media-query($on-palm) {
+        &:hover {
+            @include textGlitchReset();
+        }
+    }
 }
 
 
@@ -287,7 +293,7 @@ pre {
     padding: $spacing-unit;
 
     a:hover {
-        @include textGlitch("nav-link-glitch", 10, $text-color, $grey-color-light, $highlight-color, $highlight-tertiary-color, 5, 100)
+        @include textGlitch("nav-link-glitch", 10, $text-color, $grey-color-light, $highlight-color, $highlight-tertiary-color, 5, 100);
     }
 
     @include media-query($on-laptop) {
@@ -295,6 +301,9 @@ pre {
         width: 100%;
         height: auto;
         float: none;
+        a:hover {
+            @include textGlitchReset();
+        }
     }
 
     img {

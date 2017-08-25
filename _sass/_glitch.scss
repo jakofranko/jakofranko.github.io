@@ -42,6 +42,19 @@
   
 }
 
+@mixin textGlitchReset() {
+  &:before,
+  &:after {
+    content: none;
+    position: absolute;
+    // top: 0;
+    left: 0;
+    width: 100%;
+    text-shadow: none;
+    animation: none;
+  }
+}
+
 
 @mixin imgGlitch($name, $intensity, $width, $height, $top, $left) {
   
