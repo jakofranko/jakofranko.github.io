@@ -1,14 +1,11 @@
 - name: My Blog
-  image: /assets/logo.png
   description: A few of my thoughts
   page: /thoughts
 
 - name: My Work
-  image: /assets/logo.png
   description: Some of my software projects over the years
   page: /work
 
 - name: About Me
-  image: assets/logo.png
   description: A little bit of information about myself
   page: /about
