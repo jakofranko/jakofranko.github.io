@@ -20,7 +20,7 @@
             {% assign icon = "icon-" | append: info.name | append: ".svg" %}
             <li>
                 <span class="icon">{% include {{ icon }} %}</span>
-                <a href="{{ info.url }}">{{ info.username }}</a>
+                <a href="{{ info.url }}" alt="{{ info.name }}" title="{{ info.name }}">{{ info.username }}</a>
             </li>
         {% endfor %}
     </ul>
