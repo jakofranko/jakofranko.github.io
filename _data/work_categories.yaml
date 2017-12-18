@@ -4,7 +4,7 @@
   page: /thoughts
 
 - name: My Work
-  image: /assets/logo.png
+  image: /assets/work.svg
   description: Some of my software projects over the years
   page: /work
 
