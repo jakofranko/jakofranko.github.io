@@ -12,10 +12,15 @@ description: > # this means to ignore newlines until "baseurl:"
   GitHub projects but I might throw some thoughts up here occasionally.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jakofranko.github.io" # the base hostname & protocol for your site
-github_username: jakofranko 
+github_username: jakofranko
 
 # Build settings
 markdown: kramdown
 
-# GitHub Projects
-projects: ['hero', 'cave-quest', 'MonsterHunterRL', 'JavaScript30']
+defaults:
+    -
+        scope:
+            path: ""
+            type: "pages"
+        values:
+            parent: "index.html"
