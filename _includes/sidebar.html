@@ -7,7 +7,7 @@
                 <li><a href="/{{ parent }}">{{ parent | replace: ".html", "" | replace: ".md", "" | replace: "index", "home" | capitalize}}</a></li>
             {% endif %}
             {% if page.title %}
-                <li>{{ page.title }}</li>
+                <li>› {{ page.title }}</li>
             {% endif %}
         </ul>
     </nav>
