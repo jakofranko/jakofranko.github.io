@@ -5,10 +5,10 @@
 
 - name: My Work
   image: /assets/work.svg
-  description: Some of my software projects over the years
+  description: Some of my projects over the years
   page: /work
 
 - name: About Me
-  image: /assets/logo.png
-  description: A little bit of information about myself
+  image: /assets/pillar.svg
+  description: A little bit about myself
   page: /about
