@@ -5,23 +5,23 @@
     xmlns="http://www.w3.org/2000/svg"
     baseProfile="full"
     version="1.1"
-    style="width: 300px; height: 300px; stroke: rgb(0, 0, 0); stroke-width: 26; fill: none; stroke-linecap: square;">
+    style="width: 300px; height: 300px; stroke: rgb(0, 0, 0); stroke-width: 18; fill: none; stroke-linecap: square;">
     <g transform="translate(0,0)">
-        <path stroke="#c9deef" d="M30,0 L30,45"></path>
-        <path stroke="#a1bace" d="M30,75 L30,105"></path>
-        <path stroke="#7b97ad" d="M30,135 L30,165"></path>
-        <path stroke="#59778e" d="M30,195 L30,225"></path>
-        <path stroke="#3a5a72" d="M30,255 L30,285"></path>
-        <path stroke="#D1D7CD" d="M90,0 L90,60"></path>
-        <path stroke="#7b8c70" d="M90,90 L90,135"></path>
-        <path stroke="#556d46" d="M90,165 L90,210"></path>
-        <path stroke="#395926" d="M90,240 L90,300"></path>
-        <path stroke="#E8C46E" d="M150,75 L150,0"></path>
-        <path stroke="#a08136" d="M150,180 L150,105"></path>
-        <path stroke="#826216" d="M150,300 L150,210"></path>
-        <path stroke="#EAC265" d="M210,0 L210,135"></path>
-        <path stroke="#9b751d" d="M210,165 L210,300"></path>
-        <path stroke="#f2bb43" d="M270,0 L270,300"></path>
+        <path stroke="#f2cdb5" d="M30,0 L30,45"></path>
+        <path stroke="#cea890" d="M30,75 L30,105"></path>
+        <path stroke="#aa8066" d="M30,135 L30,165"></path>
+        <path stroke="#8e654b" d="M30,195 L30,225"></path>
+        <path stroke="#70472e" d="M30,255 L30,285"></path>
+        <path stroke="#f2b48e" d="M90,0 L90,60"></path>
+        <path stroke="#c48762" d="M90,90 L90,135"></path>
+        <path stroke="#915b3b" d="M90,165 L90,210"></path>
+        <path stroke="#703b1c" d="M90,240 L90,300"></path>
+        <path stroke="#f4a475" d="M150,75 L150,0"></path>
+        <path stroke="#a5582b" d="M150,180 L150,105"></path>
+        <path stroke="#7c350b" d="M150,300 L150,210"></path>
+        <path stroke="#fc8037" d="M210,0 L210,135"></path>
+        <path stroke="#9b410c" d="M210,165 L210,300"></path>
+        <path stroke="#f77427" d="M270,0 L270,300"></path>
     </g>
     <g>
         <path d="M0,0" transform=""></path>
