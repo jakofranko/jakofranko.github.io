@@ -1,0 +1,14 @@
+<div id="tags">
+    {% assign tags = '' | split: '' %}
+    {% for project in site.data.projects %}
+        {% for tag in project.tags %}
+            {% assign tagName = tag | split: ' ' %}
+            {% assign tags = tags | concat: tagName | uniq %}
+        {% endfor %}
+    {% endfor %}
+    <ul id="tag-list">
+        {% for tag in tags %}
+            <li>{{ tag }}</li>
+        {% endfor %}
+    </ul>
+</div>

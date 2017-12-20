@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<h1>{{ page.tag }}</h1>
+
+{% for project in site.data.projects %}
+    {% if project.tags contains page.tag %}
+        <h2>{{ project.name }} </h2>
+    {% endif %}
+{% endfor %}

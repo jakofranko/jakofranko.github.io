@@ -17,6 +17,11 @@ github_username: jakofranko
 # Build settings
 markdown: kramdown
 
+collections:
+    tags:
+        output: true
+        permalink: /:collection/:name
+
 defaults:
     -
         scope:
@@ -30,3 +35,10 @@ defaults:
             type: "posts"
         values:
             parent: thoughts
+    -
+        scope:
+            path: ""
+            type: tags
+        values:
+            layout: tag
+            parent: work
