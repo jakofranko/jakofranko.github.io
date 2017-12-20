@@ -24,3 +24,9 @@ defaults:
             type: "pages"
         values:
             parent: "index.html"
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            parent: thoughts
