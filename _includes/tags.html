@@ -6,9 +6,9 @@
             {% assign tags = tags | concat: tagName | uniq %}
         {% endfor %}
     {% endfor %}
-    <ul id="tag-list">
+    <p id="tag-list">
         {% for tag in tags %}
-            <li>{{ tag }}</li>
+            {% if page.tag and page.tag == tag %}› {% endif %}<a href="/tags/{{ tag }}">{{ tag }}</a> {% if forloop.last == false %} / {% endif %}
         {% endfor %}
-    </ul>
+    </p>
 </div>
