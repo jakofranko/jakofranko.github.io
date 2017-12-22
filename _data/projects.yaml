@@ -16,7 +16,7 @@
 - name: javascript 30
   description: A series of tutorials and projects meant to be completed over the course of 30 days. This course is produced by Wes Bos, and this project are my results wrapped up in its own GitHub page.
   path: /javascript30
-  tags: [javascript, front-end, css, css3, ES6]
+  tags: [javascript, front-end, css, css3, es6]
 
 - name: React Demo
   description: This is a demo React app that I assembled as part of <a href="https://reactforbeginners.com/">Wes Bos's "React for Beginners" course</a>. It is a seafood inventory/ordering app that features authenticaton via GitHub, Facebook, and Twitter. Authentication and datahosting is via Firebase. This was written from scratch, but the concept is by Wes Bos.
