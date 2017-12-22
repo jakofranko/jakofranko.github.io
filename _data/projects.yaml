@@ -18,6 +18,11 @@
   path: /JavaScript30
   tags: [JavaScript, front-end, CSS, CSS3, ES6]
 
+- name: React Demo
+  description: This is a demo React app that I assembled as part of <a href="https://reactforbeginners.com/">Wes Bos's "React for Beginners" course</a>. It is a seafood inventory/ordering app that features authenticaton via GitHub, Facebook, and Twitter. Authentication and datahosting is via Firebase. This was written from scratch, but the concept is by Wes Bos.
+  path: /react-demo
+  tags: [JavaScript, React, ES6, Babel, Firebase, front-end]
+
 # TODO: Create GH pages for these projects
 # - name: Hobgoblin
 #   description: My JavaScript framework for building roguelike games in the browser. Uses ROT.js.
