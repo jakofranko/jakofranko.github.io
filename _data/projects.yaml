@@ -1,40 +1,40 @@
 - name: Justice
-  description: A superhero-themed roguelike, written for the browser in JavaScript, using ROT.js and my own custom framework
+  description: A superhero-themed roguelike, written for the browser in javascript, using ROT.js and my own custom framework
   path: /hero
-  tags: [JavaScript, game, roguelike, front-end, rotjs]
+  tags: [javascript, game, roguelike, front-end, rotjs]
 
 - name: MonserHunter RL
-  description: A roguelike set in the Monster Hunter International universe. Built using JavaScript for the browser, and Hobgoblin
+  description: A roguelike set in the Monster Hunter International universe. Built using javascript for the browser, and hobgoblin
   path: /MonsterHunterRL
-  tags: [JavaScript, game, roguelike, front-end, rotjs, Hobgoblin]
+  tags: [javascript, game, roguelike, front-end, rotjs, hobgoblin]
 
 - name: Cave-Quest
   description: A simple roguelike built while following along a tutorial
   path: /cave-quest
-  tags: [JavaScript, game, roguelike, front-end, rotjs]
+  tags: [javascript, game, roguelike, front-end, rotjs]
 
-- name: JavaScript 30
+- name: javascript 30
   description: A series of tutorials and projects meant to be completed over the course of 30 days. This course is produced by Wes Bos, and this project are my results wrapped up in its own GitHub page.
-  path: /JavaScript30
-  tags: [JavaScript, front-end, CSS, CSS3, ES6]
+  path: /javascript30
+  tags: [javascript, front-end, css, css3, ES6]
 
 - name: React Demo
   description: This is a demo React app that I assembled as part of <a href="https://reactforbeginners.com/">Wes Bos's "React for Beginners" course</a>. It is a seafood inventory/ordering app that features authenticaton via GitHub, Facebook, and Twitter. Authentication and datahosting is via Firebase. This was written from scratch, but the concept is by Wes Bos.
   path: /react-demo
-  tags: [JavaScript, React, ES6, Babel, Firebase, front-end]
+  tags: [javascript, react, es6, babel, firebase, front-end]
 
 # TODO: Create GH pages for these projects
 # - name: Hobgoblin
-#   description: My JavaScript framework for building roguelike games in the browser. Uses ROT.js.
+#   description: My javascript framework for building roguelike games in the browser. Uses ROT.js.
 #   path: /hobgoblinjs
-#   tags: [JavaScript, engine, roguelike, rotjs, node, CLI]
+#   tags: [javascript, engine, roguelike, rotjs, node, cli]
 
 # - name: Caves of Clojure
 #   description: A roguelike game written in Clojure, made while following a tutorial
 #   path: /caves-of-clojure
-#   tags: [Clojure, game, roguelike]
+#   tags: [clojure, game, roguelike]
 
 # - name: Glossa
 #   description: A naming language generator generator, based on Martin O'Leary's language.js
 #   path: /glossa
-#   tags: [Ruby, gem, language]
+#   tags: [ruby, gem, language]
