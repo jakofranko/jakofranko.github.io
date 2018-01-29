@@ -18,3 +18,15 @@
         -ms-transform: translate(0%, 0%);
     }
 }
+
+.hl {
+    color: $highlight-color;
+}
+
+.hl2 {
+    color: $highlight-secondary-color;
+}
+
+.hl {
+    color: $highlight-tertiary-color;
+}
