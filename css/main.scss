@@ -45,7 +45,7 @@ $background-color:          #fdfdfd;
 $brand-color:               #2a7ae2;
 $highlight-color:           #c9fffa;
 $highlight-secondary-color: #8e3737;
-$highlight-tertiary-color: #4cf749;
+$highlight-tertiary-color:  #4cf749;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -81,6 +81,7 @@ $on-laptop:        962px;
         "glitch",
         "glitch-plus",
         "base",
+        "sidebar",
         "layout",
         "syntax-highlighting",
         "helpers"
