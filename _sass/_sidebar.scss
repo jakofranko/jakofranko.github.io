@@ -24,9 +24,14 @@
         margin-bottom: $spacing-unit / 2;
     }
 
-    .contact_info {
+    .contact_info, .crypto {
         list-style: none;
         margin-left: 0;
+    }
+
+    .crypto {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
     }
 
     nav {
@@ -35,10 +40,5 @@
             margin-left: 0;
             list-style: none;
         }
-    }
-
-    .crypto {
-        overflow-wrap: break-word;
-        word-wrap: break-word;
     }
 }
