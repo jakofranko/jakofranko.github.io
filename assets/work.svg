@@ -6,22 +6,14 @@
     baseProfile="full"
     version="1.1"
     style="width: 300px; height: 300px; stroke: rgb(0, 0, 0); stroke-width: 18; fill: none; stroke-linecap: square;">
+    <defs>
+        <linearGradient id="work-gradient">
+            <stop offset="0" stop-color="#454f43" />
+            <stop offset="1" stop-color="#60ef34" />
+        </linearGradient>
+    </defs>
     <g transform="translate(0,0)">
-        <path stroke="#f2cdb5" d="M30,0 L30,45"></path>
-        <path stroke="#cea890" d="M30,75 L30,105"></path>
-        <path stroke="#aa8066" d="M30,135 L30,165"></path>
-        <path stroke="#8e654b" d="M30,195 L30,225"></path>
-        <path stroke="#70472e" d="M30,255 L30,285"></path>
-        <path stroke="#f2b48e" d="M90,0 L90,60"></path>
-        <path stroke="#c48762" d="M90,90 L90,135"></path>
-        <path stroke="#915b3b" d="M90,165 L90,210"></path>
-        <path stroke="#703b1c" d="M90,240 L90,300"></path>
-        <path stroke="#f4a475" d="M150,75 L150,0"></path>
-        <path stroke="#a5582b" d="M150,180 L150,105"></path>
-        <path stroke="#7c350b" d="M150,300 L150,210"></path>
-        <path stroke="#fc8037" d="M210,0 L210,135"></path>
-        <path stroke="#9b410c" d="M210,165 L210,300"></path>
-        <path stroke="#f77427" d="M270,0 L270,300"></path>
+        <path stroke="url(#work-gradient)" d="M30,0 L30,45 M30,75 L30,105 M30,135 L30,165 M30,195 L30,225 M30,255 L30,285 M90,0 L90,60 M90,90 L90,135 M90,165 L90,210 M90,240 L90,300 M150,75 L150,0 M150,180 L150,105 M150,300 L150,210 M210,0 L210,135 M210,165 L210,300 M270,0 L270,300"></path>
     </g>
     <g>
         <path d="M0,0" transform=""></path>

@@ -13,7 +13,7 @@
   path: /cave-quest
   tags: [javascript, game, roguelike, front-end, rotjs]
 
-- name: javascript 30
+- name: JavaScript 30
   description: A series of tutorials and projects meant to be completed over the course of 30 days. This course is produced by Wes Bos, and this project are my results wrapped up in its own GitHub page.
   path: /javascript30
   tags: [javascript, front-end, css, css3, es6]
