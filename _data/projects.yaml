@@ -23,6 +23,11 @@
   path: /react-demo
   tags: [javascript, react, es6, babel, firebase, front-end]
 
+- name: Prospector
+  description: This is a simple data visualizer, meant to help you understand your cryptocurrency wallet transactions, especially if you are a miner.
+  path: /prospector
+  tags: [javascript, es6, cryptocurrency, d3]
+
 # TODO: Create GH pages for these projects
 # - name: Hobgoblin
 #   description: My javascript framework for building roguelike games in the browser. Uses ROT.js.
