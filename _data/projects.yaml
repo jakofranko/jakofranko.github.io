@@ -1,17 +1,22 @@
 - name: Justice
   description: A superhero-themed roguelike, written for the browser in javascript, using ROT.js and my own custom framework
   path: /hero
-  tags: [javascript, game, roguelike, front-end, rotjs]
+  tags: [javascript, game, roguelike, front-end, rotjs, generative, pcg]
+
+- name: Maison
+  description: A procedural house generator. Originally used to debug some strange behavior from the PCG in Justice, what remains is a neat little toy/demo.
+  path: /maison
+  tags: [javascript, es6, rotjs, front-end, generative, pcg]
 
 - name: MonserHunter RL
   description: A roguelike set in the Monster Hunter International universe. Built using javascript for the browser, and hobgoblin
   path: /MonsterHunterRL
-  tags: [javascript, game, roguelike, front-end, rotjs, hobgoblin]
+  tags: [javascript, game, roguelike, front-end, rotjs, hobgoblin, generative, pcg]
 
 - name: Cave-Quest
   description: A simple roguelike built while following along a tutorial
   path: /cave-quest
-  tags: [javascript, game, roguelike, front-end, rotjs]
+  tags: [javascript, game, roguelike, front-end, rotjs, generative, pcg]
 
 - name: JavaScript 30
   description: A series of tutorials and projects meant to be completed over the course of 30 days. This course is produced by Wes Bos, and this project are my results wrapped up in its own GitHub page.
@@ -26,7 +31,7 @@
 - name: Prospector
   description: This is a simple data visualizer, meant to help you understand your cryptocurrency wallet transactions, especially if you are a miner.
   path: /prospector
-  tags: [javascript, es6, cryptocurrency, d3]
+  tags: [javascript, es6, cryptocurrency, d3, front-end]
 
 # TODO: Create GH pages for these projects
 # - name: Hobgoblin
