@@ -1,15 +1,15 @@
 - name: Justice
-  description: A superhero-themed roguelike, written for the browser in javascript, using ROT.js and my own custom framework
+  description: A superhero-themed roguelike, written for the browser in javascript, using ROT.js and my own custom framework. WIP.
   path: /hero
   tags: [javascript, game, roguelike, front-end, rotjs, generative, pcg]
 
 - name: Maison
-  description: A procedural house generator. Originally used to debug some strange behavior from the PCG in Justice, what remains is a neat little toy/demo.
+  description: A procedural house generator. Originally used to debug some strange behavior from the PCG in Justice, what remains is a neat little toy/demo. WIP.
   path: /maison
   tags: [javascript, es6, rotjs, front-end, generative, pcg]
 
 - name: MonserHunter RL
-  description: A roguelike set in the Monster Hunter International universe. Built using javascript for the browser, and hobgoblin
+  description: A roguelike set in the Monster Hunter International universe. Built using javascript for the browser, and hobgoblin. WIP.
   path: /MonsterHunterRL
   tags: [javascript, game, roguelike, front-end, rotjs, hobgoblin, generative, pcg]
 
