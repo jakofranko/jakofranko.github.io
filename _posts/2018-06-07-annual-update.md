@@ -10,9 +10,9 @@ During 2017 and through to today, I have been working on a number of projects:
 - My [superhero-themed roguelike "Justice"](/hero),
 - a little bit of work on [Hobgoblin](https://github.com/jakofranko/hobgoblinjs),
 - Started another RL with a friend [set in the Monster Hunter International Universe](https://github.com/jakofranko/MonsterHunterRL)
-- A stand-alone [procedural house generator](), which is based on a module written for Justice.
-- I built a [naming language generator in Ruby](https://github.com/jakofranko/glossa) that was based off of a fantasy-map generator [which I also annotated](https://github.com/jakofranko/annotated-terrain)
-- I [did JS30](/javascript30)
+- A stand-alone [procedural house generator](/maison), which is based on a module written for Justice.
+- I built a [naming language generator in Ruby](https://github.com/jakofranko/glossa) that was based off of a fantasy-map generator [which I also annotated](https://github.com/jakofranko/annotated-terrain/blob/master/terrain.js)
+- I [did JS30](/JavaScript30)
 - I built a [cryptocurrency wallet visualizer](/prospector)
 - I learned [React](/react-demo)
 - I build a browser version of [Rutherford Craze's](https://github.com/rutherfordcraze/processing) Processing script for [procedural runes](/procedural-runes)
