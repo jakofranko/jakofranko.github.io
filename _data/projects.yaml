@@ -33,6 +33,11 @@
   path: /prospector
   tags: [javascript, es6, cryptocurrency, d3, front-end]
 
+- name: Procedural Runes
+  description: A JS + HTML canvas version of Rutherford Craze's <a href="https://github.com/rutherfordcraze/processing">Processing procedural runes script</a>.
+  path: /procedural-runes
+  tags: [javascript, canvas, front-end, es6, dat.gui]
+
 # TODO: Create GH pages for these projects
 # - name: Hobgoblin
 #   description: My javascript framework for building roguelike games in the browser. Uses ROT.js.
