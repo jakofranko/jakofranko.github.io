@@ -15,7 +15,7 @@ During 2017 and through to today, I have been working on a number of projects:
 - I [did JS30](/JavaScript30)
 - I built a [cryptocurrency wallet visualizer](/prospector)
 - I learned [React](/react-demo)
-- I build a browser version of [Rutherford Craze's](https://github.com/rutherfordcraze/processing) Processing script for [procedural runes](/procedural-runes)
+- I built a browser version of [Rutherford Craze's](https://github.com/rutherfordcraze/processing) Processing script for [procedural runes](/procedural-runes)
 - I created a [front-end](https://github.com/jakofranko/scriven) and [back-end](https://github.com/jakofranko/ledger) for a logging tool to aid in productivity
 - I was introduced to the works of [Devine Lu Linvega](http://xxiivv.com). This caused a paradigm shift for me, and resulted in a deep-dive on most of his projects including:
     - The beginnings of a [Twitter bot](https://github.com/jakofranko/vessel.yuri) based on his Ruby framework Nataniev.
