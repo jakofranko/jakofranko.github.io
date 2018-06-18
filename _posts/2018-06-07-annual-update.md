@@ -18,7 +18,7 @@ During 2017 and through to today, I have been working on a number of projects:
 - I built a browser version of [Rutherford Craze's](https://github.com/rutherfordcraze/processing) Processing script for [procedural runes](/procedural-runes)
 - I created a [front-end](https://github.com/jakofranko/scriven) and [back-end](https://github.com/jakofranko/ledger) for a logging tool to aid in productivity
 - I was introduced to the works of [Devine Lu Linvega](http://xxiivv.com). This caused a paradigm shift for me, and resulted in a deep-dive on most of his projects including:
-    - The beginnings of a [Twitter bot](https://github.com/jakofranko/vessel.yuri) based on his Ruby framework Nataniev.
+    - The beginnings of my own [Twitter bot](https://github.com/jakofranko/vessel.yuri) based on his Ruby framework Nataniev.
     - Several bug fixes for his blogging platform [Oscean](https://github.com/jakofranko/vessel.oscean) and text-sandbox game [Paradise](https://github.com/jakofranko/vessel.paradise). He has moved both of these platforms to a purely front-end style now, but Nataniev is an incredibly interesting way to build out a platform.
     - My own notes/webpage written as a Nataniev Vessel ([front-end](https://github.com/jakofranko/public.traumae), [back-end](https://github.com/jakofranko/vessel.traumae)) for the ancestor language of Lietal, a conlonag Devine created. This ancestor language used to be called "Traumae," and the details have been lost to the dark places of the internet and the git history of Lietal.
 
