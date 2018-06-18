@@ -1,0 +1,10 @@
+.main {
+    @extend %clearfix;
+    display: flex;
+    align-items: stretch;
+    min-height: 100vh;
+
+    @include media-query($on-laptop) {
+        flex-direction: column-reverse;
+    }
+}

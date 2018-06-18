@@ -1,26 +1,32 @@
 .sidebar {
+    display: flex;
+    flex-direction: column;
     background-color: $grey-color-light;
-    height: 100vh;
-    width: $sidebar-width;
-    float: left;
     padding: $spacing-unit;
-
-    a:hover {
-        @include textGlitch("nav-link-glitch", 10, $text-color, $grey-color-light, $highlight-color, $highlight-tertiary-color, 5, 100);
-    }
 
     @include media-query($on-laptop) {
         font-size: 22px;
-        width: 100%;
-        height: auto;
-        float: none;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
         a:hover {
             @include textGlitchReset();
         }
     }
 
+    @include media-query($on-palm) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    a:hover {
+        @include textGlitch("nav-link-glitch", 10, $text-color, $grey-color-light, $highlight-color, $highlight-tertiary-color, 5, 100);
+    }
+
+
     img {
-        width: $sidebar-width / 3;
+        width: 120px;
         margin-bottom: $spacing-unit / 2;
     }
 

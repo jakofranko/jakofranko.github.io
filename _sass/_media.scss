@@ -1,0 +1,25 @@
+.media {
+    @extend %clearfix;
+    display: block;
+    margin-bottom: $spacing-unit;
+    min-width: 22em; // Magic number to help the paragraphs keep from wrapping
+
+    @include media-query($on-palm) {
+        min-width: 0;
+    }
+
+    img, svg {
+        float: left;
+        width: 50px;
+        margin-right: 15px;
+    }
+
+    h1, h2, h3, h4, h5, h6, p {
+        margin: 0;
+
+        a {
+            color: inherit;
+
+        }
+    }
+}

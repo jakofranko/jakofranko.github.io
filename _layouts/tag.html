@@ -2,17 +2,16 @@
 layout: default
 ---
 
-<div class="center-vertical">
-    <h1>{{ page.tag }}</h1>
+<h1>{{ page.tag }}</h1>
 
-    {% for project in site.data.projects %}
-        {% if project.tags contains page.tag %}
+{% for project in site.data.projects %}
+    {% if project.tags contains page.tag %}
 
-            {% include project.html %}
+        {% include project.html %}
 
-        {% endif %}
-    {% endfor %}
+    {% endif %}
+{% endfor %}
 
-    <p>Other categories:</p>
-    {% include tags.html %}
-</div>
+<p>Other categories:</p>
+
+{% include tags.html %}

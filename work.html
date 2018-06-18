@@ -5,11 +5,9 @@ image: /assets/work.svg
 permalink: /work/
 ---
 
-<div class="center-vertical">
-    {% for project in site.data.projects %}
-        {% include project.html %}
-    {% endfor %}
+{% for project in site.data.projects %}
+    {% include project.html %}
+{% endfor %}
 
-    <p>Filter by category:</p>
-    {% include tags.html %}
-</div>
+<p>Filter by category:</p>
+{% include tags.html %}
