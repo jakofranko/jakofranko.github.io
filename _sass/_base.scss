@@ -113,13 +113,6 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-/**
- * Paragraphs
- */
-p {
-    max-width: 35em;
-}
-
 
 /**
  * Links
@@ -191,30 +184,6 @@ pre {
     }
 }
 
-
-
-/**
- * Wrapper
- */
-.wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
-}
-
-
-
 /**
  * Clearfix
  */
@@ -233,7 +202,6 @@ pre {
  * Icons
  */
 .icon {
-
     > svg {
         display: inline-block;
         width: 16px;
@@ -243,49 +211,5 @@ pre {
         path {
             fill: $grey-color;
         }
-    }
-}
-
-/**
- * Media Boxes
- */
-.media {
-    @extend %clearfix;
-    display: block;
-    width: $content-width / 1.5;
-    margin-bottom: $spacing-unit;
-
-    @include media-query($on-laptop) {
-        width: 90vw;
-    }
-
-    img, svg {
-        float: left;
-        width: 50px;
-        margin-right: 15px;
-    }
-
-    h1, h2, h3, h4, h5, h6, p {
-        margin: 0;
-
-        a {
-            color: inherit;
-
-        }
-    }
-}
-
-.main {
-    @extend %clearfix;
-    height: 100vh;
-    width: $content-width-new;
-    float: left;
-    padding: $spacing-unit;
-    position: relative;
-    @include media-query($on-laptop) {
-        width: 100%;
-        height: auto;
-        float: none;
-        font-size: 22px;
     }
 }
