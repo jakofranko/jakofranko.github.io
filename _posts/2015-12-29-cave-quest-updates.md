@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "Cave-Quest Updates"
 date: 2015-12-29 10:30am
-parent: thoughts
 ---
 
 * Fixed a typo on the help screen
