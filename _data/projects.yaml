@@ -1,5 +1,5 @@
 - name: Justice
-  description: A superhero-themed roguelike, written for the browser in javascript, using ROT.js and my own custom framework. WIP.
+  description: A superhero-themed roguelike, written for the browser in JavaScript, using ROT.js and my own custom framework.
   path: /hero
   tags: [javascript, game, roguelike, front-end, rotjs, generative, pcg]
 
@@ -9,7 +9,7 @@
   tags: [javascript, es6, rotjs, front-end, generative, pcg]
 
 - name: MonserHunter RL
-  description: A roguelike set in the Monster Hunter International universe. Built using javascript for the browser, and hobgoblin. WIP.
+  description: A roguelike set in the Monster Hunter International universe. Built using JavaScript for the browser, and hobgoblin. WIP.
   path: /MonsterHunterRL
   tags: [javascript, game, roguelike, front-end, rotjs, hobgoblin, generative, pcg]
 
