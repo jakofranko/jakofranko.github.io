@@ -8,10 +8,10 @@
     style="width: 300px; height: 300px; stroke: rgb(0, 0, 0); stroke-width: 11; fill: none; stroke-linecap: round;">
     <g transform="translate(0,0)">
         <!-- <path d="M0,60 Q240,45 240,300  M0,75 Q225,60 225,300  M0,90 Q210,75 210,300  M0,105 Q195,90 195,300  M0,120 Q180,105 180,300  "></path> -->
-        <path d="M0,60 Q240,45 240,300" stroke="#c9deef"></path>
-        <path d="M0,75 Q225,60 225,300" stroke="#a1bace"></path>
-        <path d="M0,90 Q210,75 210,300" stroke="#7b97ad"></path>
-        <path d="M0,105 Q195,90 195,300" stroke="#59778e"></path>
-        <path d="M0,120 Q180,105 180,300" stroke="#3a5a72"></path>
+        <path d="M0,60 Q240,45 240,300" stroke="#222222"></path>
+        <path d="M0,75 Q225,60 225,300" stroke="#333333"></path>
+        <path d="M0,90 Q210,75 210,300" stroke="#444444"></path>
+        <path d="M0,105 Q195,90 195,300" stroke="#555555"></path>
+        <path d="M0,120 Q180,105 180,300" stroke="#666666"></path>
     </g>
     <g><path d="M0,0" transform=""></path></g></svg>
