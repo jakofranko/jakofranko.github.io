@@ -36,7 +36,7 @@
 - name: Procedural Runes
   description: A JS + HTML canvas version of Rutherford Craze's <a href="https://github.com/rutherfordcraze/processing">Processing procedural runes script</a>.
   path: /procedural-runes
-  tags: [javascript, canvas, front-end, es6, dat.gui]
+  tags: [javascript, canvas, front-end, es6, dat-gui]
 
 # TODO: Create GH pages for these projects
 # - name: Hobgoblin
