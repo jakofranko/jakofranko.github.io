@@ -1,0 +1,24 @@
+<svg
+    class="vector"
+    width="300px"
+    height="300px"
+    xmlns="http://www.w3.org/2000/svg"
+    baseProfile="full"
+    version="1.1"
+    style="width: 300px; height: 300px; stroke: rgb(0, 0, 0); stroke-width: 15; fill: none; stroke-linecap: round; stroke-linejoin: round;">
+    <defs>
+        <radialGradient id="RadialGradient" cx="0.25" cy="0.6" r="0.4">
+            <stop offset="0%" stop-color="#333"/>
+            <stop offset="100%" stop-color="#eee"/>
+        </radialGradient>
+    </defs>
+
+    <g transform="translate(0,0)">
+        <path id="layer_1" d="M90,15 Q30,270 255,270 Q120,195 90,15 " style="stroke: url(#RadialGradient);"></path>
+    </g>
+    <g>
+        <path id="mirror_layer_3" d="M0,0" transform="" style="stroke: rgb(204, 204, 204);"></path>
+        <path id="mirror_layer_2" d="M0,0" transform="" style="stroke: rgb(153, 153, 153);"></path>
+        <path id="mirror_layer_1" d="M0,0" transform="" style="stroke: black;"></path>
+    </g>
+</svg>

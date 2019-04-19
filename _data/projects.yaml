@@ -8,6 +8,11 @@
   path: /maison
   tags: [javascript, es6, rotjs, front-end, generative, pcg]
 
+- name: Corellon
+  description: A React app for logging collections of events in order to find correlations between them. Uses `localStorage` to maintain a persistent state. WIP.
+  path: /corellon
+  tags: [javascript, react, front-end, es6, babel, webpack]
+
 - name: MonserHunter RL
   description: A roguelike set in the Monster Hunter International universe. Built using JavaScript for the browser, and hobgoblin. WIP.
   path: /MonsterHunterRL
@@ -38,10 +43,6 @@
   path: /procedural-runes
   tags: [javascript, canvas, front-end, es6, dat-gui]
 
-- name: Corellon
-  description: A React app for logging collections of events in order to find correlations between them. Uses `localStorage` to maintain a persistent state. WIP.
-  path: /corellon
-  tags: [javascript, react, front-end, es6, babel, webpack]
 
 # TODO: Create GH pages for these projects
 # - name: Hobgoblin
