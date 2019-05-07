@@ -9,7 +9,8 @@
   tags: [javascript, es6, rotjs, front-end, generative, pcg]
 
 - name: Corellon
-  description: A React app for logging collections of events in order to find correlations between them. Uses `localStorage` to maintain a persistent state. WIP.
+  description: A React app for logging collections of events in order to find correlations between them. Uses `localStorage` to maintain a persistent state.
+  icon: icon-corellon.svg
   path: /corellon
   tags: [javascript, react, front-end, es6, babel, webpack]
 

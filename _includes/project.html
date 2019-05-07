@@ -1,5 +1,11 @@
 <div class="media">
-   <a href="{{ project.path | prepend: site.baseurl }}">{% include icon-github.svg %}</a>
+   <a href="{{ project.path | prepend: site.baseurl }}">
+        {% if project.icon %}
+            {% include {{ project.icon }} %}
+        {% else %}
+           {% include icon-github.svg %}
+        {% endif %}
+   </a>
    <h3>
        <a href="{{ project.path | prepend: site.baseurl }}">{{ project.name }}</a>
    </h3>
