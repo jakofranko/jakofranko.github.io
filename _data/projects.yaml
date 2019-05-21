@@ -1,5 +1,6 @@
 - name: Justice
   description: A superhero-themed roguelike, written for the browser in JavaScript, using ROT.js and my own custom framework.
+  icon: icon-justice.html
   path: /hero
   tags: [javascript, game, roguelike, front-end, rotjs, generative, pcg]
 
