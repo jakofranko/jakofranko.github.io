@@ -45,6 +45,11 @@
   path: /procedural-runes
   tags: [javascript, canvas, front-end, es6, dat-gui]
 
+- name: Macian
+  description: A functional CSS framework that utilizes micro-classes for quick application of styles.
+  path: /macian
+  tags: [css]
+
 
 # TODO: Create GH pages for these projects
 # - name: Hobgoblin
