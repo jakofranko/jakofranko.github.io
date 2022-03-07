@@ -45,6 +45,12 @@
   path: /procedural-runes
   tags: [javascript, canvas, front-end, es6, dat-gui]
 
+- name: Advanced React and GraphQL Demo
+  description: Created as a part of the <a href="https://advancedreact.com/">Advanced React</a> course by Wes Bos. The course walked through building a web store using React, with Apollo, GraphQL Yoga, and Prisma as the data handling layers. Complete with Stripe integration and user management.
+  icon: icon-sick-fits.html
+  path: https://demo-sf-frontend-prod.herokuapp.com/
+  tags: [javascript, react, graphql, prisma, react-apollo, graphql-yoga, front-end, back-end]
+
 - name: Macian
   description: A functional CSS framework that utilizes micro-classes for quick application of styles.
   path: /macian
