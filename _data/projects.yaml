@@ -56,6 +56,22 @@
   path: /macian
   tags: [css]
 
+- name: Neon Native
+  description: A dystopic cyberpunk-themed idle/clicking game (a la Universal Paperclips) built with React and Merchant.js.
+  path: /neonnative
+  tags: [javascript, react, merchantjs, front-end]
+
+- name: Decision Matrix
+  description: A small tool for making complex decisions. It is a progressive web application with PWA tooling via Google's Workbox, and built using the Mithril front-end framework.
+  path: /decision-matrix
+  tags: [javascript, mithriljs, workbox, pwa, front-end]
+
+- name: Fighting Game Demo
+  description: A 2D fighting game created to learn the Phaser game-engine/framework. For information on the assets used, please view the readme.
+  path: /fighting-game
+  tags: [javascript, phaser, front-end]
+
+
 
 # TODO: Create GH pages for these projects
 # - name: Hobgoblin
