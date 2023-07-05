@@ -1,7 +1,8 @@
 ---
-title: Understanding Uxn: Preamble - Why would you do that???
+title: "Understanding Uxn: Preamble - Why would you do that???"
 date: 2023-07-05 10:30am
 ---
+
 _**Note**: If you'd like to jump into the meat of understanding Uxn, feel free to skip ahead to the next article. If you too have wondered why people would ever move to lower level programming languages, read on!_
 
 Wow, it's been a while since I've written anything here! Let's spend a paragraph catching up and then jump into how and why Uxn came into existence.
